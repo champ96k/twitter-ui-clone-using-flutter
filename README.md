@@ -16,8 +16,6 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-![Tushar Nikam](https://i.ibb.co/12z3VcZ/Twitter.jpg)
-
 
 
 First Screen
