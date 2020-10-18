@@ -2,6 +2,7 @@ import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:twitter/HomePage.dart';
+import 'package:twitter/Login.dart';
 import 'package:twitter/Messages.dart';
 import 'package:twitter/NotificationPage.dart';
 import 'package:twitter/Search.dart';
@@ -25,7 +26,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return new SplashScreen(
       seconds: 14,
-      navigateAfterSeconds: new AfterSplash(),
+      navigateAfterSeconds: new SignIn(),
       image:Image(
         alignment: Alignment.bottomCenter,
         image: AssetImage("images/logo.png"),
